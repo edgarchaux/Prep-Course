@@ -6,7 +6,7 @@
       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
+        Tuve un inconveniente instalando npm, si alguno lo descargo y cuando lo quiere ejecutar para los tests le sale el error de que no encuentra la función, conviene reiniciar la pc, por si no ha tomado los cambios de la instalación.
       </a>
     </td>
   </tr>
@@ -287,7 +287,7 @@ Ya tenemos todo para empezar... Éxitos!!! 🍀
       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
+        Hasta ahora he procedido sin problema con la instalación de los paquetes, el único que generó error fue npm, se resolvió reiniciando el equipo, hago las anotaciones simplemente para ensayar lo de git add y todo eso.
       </a>
     </td>
   </tr>
