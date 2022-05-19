@@ -7,10 +7,15 @@
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
  * Variables
+ son expresiones que guardan valores para su posterior utilización
  * Strings
+ cadena de caracteres
  * Funciones (argumentos, `return`)
+medios para automatizar tareas repetitivas, los argumentos brindan la información necesaria para que las funciones cumplan la tarea, el comando return permite devolver algún resultado o información de interés
  * Declaraciones `if`
+ una función propia de JS permite evaluar los argumentos según una o varias bifurcaciones para segmentar la información
  * Valores booleanos (`true`, `false`)
+ son valores lógicos que cumple los argumentos en forma de código binario representados por "true" o "false"
 
 2. Instalar Node y NPM. NPM se incluye con Node. <https://nodejs.org/en/download/>
 
