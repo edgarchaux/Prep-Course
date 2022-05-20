@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "usuario inválido";
+const nuevaString = 'usuario inválido';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 0;
@@ -173,10 +173,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero>0){
-    return "Es positivo";
+    return 'Es positivo';
   }
   if(numero<0){
-    return "Es negativo";
+    return 'Es negativo';
   }
     return false;
 }
@@ -185,7 +185,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + "boby!";
+  return str + 'boby!';
 }
 
 function combinarNombres(nombre, apellido) {
@@ -193,14 +193,14 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   
-  return nombre + " " +apellido; 
+  return nombre + ' ' +apellido; 
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola " + nombre;
+  return 'Hola ' + nombre;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -239,38 +239,38 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra=="a"){
-    return "letra";
+  if(letra=='a'){
+    return 'letra';
   }
-  if(letra=="e"){
-    return "letra";
+  if(letra=='e'){
+    return 'letra';
   }
-  if(letra=="i"){
-    return "letra";
+  if(letra=='i'){
+    return 'letra';
   }
-  if(letra=="o"){
-    return "letra";
+  if(letra=='o'){
+    return 'letra';
   }
-  if(letra=="u"){
-    return "letra";
+  if(letra=='u'){
+    return 'letra';
   }
   if(esVocal.length>1){
-    return "Dato incorrecto";
+    return 'Dato incorrecto';
   }
-  if(letra!=="a"){
-    return "Dato incorrecto";
+  if(letra!=='a'){
+    return 'Dato incorrecto';
   }
-  if(letra!=="e"){
-    return "Dato incorrecto";
+  if(letra!=='e'){
+    return 'Dato incorrecto';
   }
-  if(letra!=="i"){
-    return "Dato incorrecto";
+  if(letra!=='i'){
+    return 'Dato incorrecto';
   }
-  if(letra!=="o"){
-    return "Dato incorrecto";
+  if(letra!=='o'){
+    return 'Dato incorrecto';
   }
-  if(letra!=="u"){
-    return "Dato incorrecto";
+  if(letra!=='u'){
+    return 'Dato incorrecto';
   }
 }
 
