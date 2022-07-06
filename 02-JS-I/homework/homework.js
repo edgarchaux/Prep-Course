@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'usuario inválido';
+var nuevaString = 'usuario invalido';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 0;
@@ -254,24 +254,13 @@ function esVocal(letra){
   if(letra=='u'){
     return 'letra';
   }
+  else {
+    return 'Dato incorrecto';
+  }
   if(esVocal.length>1){
     return 'Dato incorrecto';
   }
-  if(letra!=='a'){
-    return 'Dato incorrecto';
-  }
-  if(letra!=='e'){
-    return 'Dato incorrecto';
-  }
-  if(letra!=='i'){
-    return 'Dato incorrecto';
-  }
-  if(letra!=='o'){
-    return 'Dato incorrecto';
-  }
-  if(letra!=='u'){
-    return 'Dato incorrecto';
-  }
+  
 }
 
 
