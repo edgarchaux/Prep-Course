@@ -116,9 +116,9 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num%2===0){
-    return 'true';
+    return true;
     }else{
-    return 'false';
+    return false;
     }
   }
 
@@ -126,10 +126,10 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num%2===1){
-    return 'true';
+  if(num % 2 === 1){
+    return true;
     }else{
-    return 'false';
+    return false;
     } 
 }
 
@@ -236,7 +236,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro*1.2;
+  return euro * 1.2;
 }
 
 
@@ -247,14 +247,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length>1){
-    return 'Dato incorrecto';
+    return "Dato incorrecto";
     }
-    else if(letra==='a'||letra==='e'||letra==='i'||letra==='o'||letra==='u'){
-    return 'Es vocal';
+    if(letra==='a'||letra==='e'||letra==='i'||letra==='o'||letra==='u'){
+    return "Es vocal";
     }
-    else {
-    return 'Dato incorrecto';
-    }
+    return "Dato incorrecto";
   }
 
 
