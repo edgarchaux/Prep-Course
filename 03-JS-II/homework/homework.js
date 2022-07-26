@@ -54,9 +54,9 @@ function saludo(idioma) {
   } else if (idioma=="mandarin"){
     return "Ni Hao!";
   } else if (idioma=="ingles"){
-    return "Hola!";
+    return 'Hola!';
   } else {
-    return "Hola!"
+    return "Hola!";
   }
 }
 
