@@ -183,7 +183,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   var i=0;
   while(i<=10){
-    return(i*6);
+    return [i*6];
     i++;
   }
 }
