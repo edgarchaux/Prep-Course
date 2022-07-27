@@ -153,7 +153,7 @@ function esPrimo(numero) {
   for(var i=2; i < numero; i++){
     if  ((numero/i)%1!=0){
       return true;
-    } else{
+    } else if ((numero/i)%1===0){
       return false
     }
   }
