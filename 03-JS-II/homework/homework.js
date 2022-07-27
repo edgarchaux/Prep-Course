@@ -71,7 +71,6 @@ function colors(color) {
   switch(color){
     case 'orange' || 'green'|| 'red'|| 'blue':
       console.log ('This is {color}');
-      break;
     default:
       console.log ('Color not found');
   }
