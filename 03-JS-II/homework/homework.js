@@ -154,13 +154,11 @@ function esPrimo(numero) {
     return false;
   } else if (numero>1||numero<-1) {
     for(var i=2; i < numero; i++){
-      if  ((numero/i)%1===0){
-        return false;
-      } else{
-        return true;
-      }
-    }
+      if  (numero%i===0){
+        return false;}
+    }return true;
   }
+  
 }
 
 
