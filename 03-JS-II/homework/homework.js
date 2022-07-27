@@ -69,8 +69,14 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch(color){
-    case 'orange' || 'green'|| 'red'|| 'blue':
-      console.log ('This is {color}');
+    case 'blue':
+      console.log ('This is blue');
+    case 'red':
+      console.log ('This is red');
+    case 'green':
+      console.log ('This is green');
+    case 'orange':
+      console.log ('This is orange');
     default:
       console.log ('Color not found');
   }
