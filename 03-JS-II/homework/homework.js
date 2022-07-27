@@ -182,10 +182,11 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   var i=0;
+  let array6=[]
   while(i<=10){
-    return [i*6];
+    array6.push [i*6];
   }
-  i++;
+  return array6;
 }
 
 function tieneTresDigitos(numero){
