@@ -185,6 +185,7 @@ function tablaDelSeis(){
   let array6=[]
   while(i<=10){
     array6.push [i*6];
+    i++;
   }
   return array6;
 }
