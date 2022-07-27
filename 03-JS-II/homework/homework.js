@@ -184,8 +184,8 @@ function tablaDelSeis(){
   var i=0;
   while(i<=10){
     return [i*6];
-    i++;
   }
+  i++;
 }
 
 function tieneTresDigitos(numero){
